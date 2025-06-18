@@ -1,34 +1,95 @@
-# 🖼️ Pixel Manipulation for Image Encryption
+# 🖼️ PRODIGY_CS_02 - Image Encryption using Pixel Manipulation (GUI Version)
 
-This project is a simple Python GUI tool that performs **image encryption and decryption** using **pixel manipulation techniques**. It uses a basic XOR operation on RGB pixel values to encrypt and decrypt images.
+### ✅ Internship Task - Prodigy Infotech (Cyber Security Track)
 
----
-
-## 📌 Task Description
-
-> **Task-02: Pixel Manipulation for Image Encryption**  
-> Develop a simple image encryption tool using pixel manipulation. You can perform operations like swapping pixel values or applying a basic mathematical operation to each pixel. Allow users to encrypt and decrypt images.
+This repository contains **Task 02** of the **Prodigy Infotech Cyber Security Internship**, where I developed a **simple image encryption and decryption tool** using **Python**, **Pillow**, and a **Tkinter-based GUI**.  
+The tool encrypts images by manipulating their pixel values using a symmetric XOR operation.
 
 ---
 
-## 🎯 Features
+## 🧠 What is Pixel-Based Image Encryption?
 
-- ✅ Load an image from file.
-- 🔐 Encrypt the image using XOR manipulation.
-- 🔓 Decrypt the image using the same XOR key.
-- 💾 Save encrypted/decrypted images.
-- 🖥️ Simple GUI using Tkinter.
+Pixel manipulation involves modifying each pixel of an image to make it unrecognizable without the correct decryption key. In this project, each pixel’s **RGB** values are **XOR’ed with a secret key** for encryption and the same operation reverses it for decryption.
+
+Example:  
+Encrypted: R' = R ^ key
+Decrypted: R = R' ^ key
 
 ---
 
-## 🛠️ How It Works
+## 🎯 Features of This Project
 
-Each pixel’s RGB values are encrypted using a symmetric XOR key:
+- 🖼️ Load any image (PNG, JPG, etc.)
+- 🔐 Encrypt the image using a basic XOR pixel operation
+- 🔓 Decrypt the image using the same XOR key
+- 🧮 Simple pixel-level manipulation logic
+- 🖥️ GUI built using `Tkinter` for user interaction
+- 💾 Save encrypted and decrypted images with one click
 
-```python
-encrypted_pixel = (r ^ key, g ^ key, b ^ key)
+---
+
+## 📂 File Structure
+
+PRODIGY_CS_02/
+
+├── pixel_encryption_gui.py # Main Python GUI application
+
+└── README.md # Project documentation
+
+
+---
+
+## 🛠️ How to Run
+
+> ⚠️ Ensure Python 3.x is installed.
+
+### 👉 Steps:
+
+1. **Clone the repository**:
+```bash
+git clone https://github.com/YashYadav579/PRODIGY_CS_02.git
 ```
-XOR is symmetric, so the same operation decrypts it:
+
+2. **Navigate to the project folder**:
+```bash
+cd PRODIGY_CS_02
 ```
-decrypted_pixel = (r ^ key, g ^ key, b ^ key)
+
+3. **Install Pillow (if not already installed)**:
+```bash
+pip install pillow
 ```
+
+4. **Run the GUI application**:
+```bash
+python pixel_encryption_gui.py
+```
+💡 A window will appear where you can choose to encrypt or decrypt images.
+
+---
+
+## 🙋‍♂️ About Me
+
+**Name**: _Yash Yadav_  
+**Intern** @ **Prodigy Infotech** – Cyber Security Track  
+**Task**: Pixel-Based Image Encryption using Python
+**Task ID**: PRODIGY_CS_02  
+
+---
+
+## 🔗 Connect with Me
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/yashyadav-5790abc/)
+- 💻 [GitHub](https://github.com/YashYadav579)
+
+---
+
+## 🏁 Conclusion
+
+This project enhanced my understanding of:
+- Image processing using Python
+- Pixel-level data encryption using XOR
+- GUI development with Tkinter
+- Real-world implementation of encryption concepts
+
+Special thanks to Prodigy Infotech for this hands-on learning opportunity!
