@@ -30,12 +30,24 @@ Decrypted: R = R' ^ key
 
 ## 📂 File Structure
 
-PRODIGY_CS_02/
+PRODIGY_CS_02/   
+├── pixel_encryption_gui.py       # Main Python GUI application   
+├── README.md                     # Project documentation   
+├── input_image.png               # Original input image   
+├── encrypted_image.png           # Encrypted output  
+└── decrypted_image.png           # Decrypted output   
 
-├── pixel_encryption_gui.py # Main Python GUI application
 
-└── README.md # Project documentation
+---
 
+## 📸 Image Preview
+
+| 🖼️ Input Image | 🔐 Encrypted Image | 🔓 Decrypted Image |
+|----------------|-------------------|--------------------|
+| ![Input](https://github.com/user-attachments/assets/6d7afc84-b461-4172-82da-16783924872a) | ![Encrypted](https://github.com/user-attachments/assets/dfddd196-8d07-49f2-8cad-ff454949ef03) | ![Decrypted](https://github.com/user-attachments/assets/c7446b62-1af4-4255-ad6b-290cc9ce987b) |
+
+
+> The encrypted image will appear scrambled, while the decrypted image matches the original input.
 
 ---
 
