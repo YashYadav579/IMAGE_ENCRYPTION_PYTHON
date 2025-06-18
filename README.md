@@ -40,6 +40,13 @@ PRODIGY_CS_02/
 
 ---
 
+## 🖥️ GUI Preview
+
+![image](https://github.com/user-attachments/assets/9d016404-d6e6-4743-8460-1ccdf74e49d8))
+![image](https://github.com/user-attachments/assets/594e4246-bf99-429e-a919-78fd906a84b4)
+
+---
+
 ## 📸 Image Preview
 
 | 🖼️ Input Image | 🔐 Encrypted Image | 🔓 Decrypted Image |
