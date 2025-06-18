@@ -12,7 +12,7 @@ The tool encrypts images by manipulating their pixel values using a symmetric XO
 Pixel manipulation involves modifying each pixel of an image to make it unrecognizable without the correct decryption key. In this project, each pixel’s **RGB** values are **XOR’ed with a secret key** for encryption and the same operation reverses it for decryption.
 
 Example:  
-Encrypted: R' = R ^ key
+Encrypted: R' = R ^ key  
 Decrypted: R = R' ^ key
 
 ---
@@ -72,7 +72,7 @@ python pixel_encryption_gui.py
 
 **Name**: _Yash Yadav_  
 **Intern** @ **Prodigy Infotech** – Cyber Security Track  
-**Task**: Pixel-Based Image Encryption using Python
+**Task**: _Pixel-Based Image Encryption using Python_  
 **Task ID**: PRODIGY_CS_02  
 
 ---
