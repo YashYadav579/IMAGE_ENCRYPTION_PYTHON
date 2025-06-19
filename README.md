@@ -30,13 +30,14 @@ Decrypted: R = R' ^ key
 
 ## 📂 File Structure
 
+```bash
 PRODIGY_CS_02/   
 ├── pixel_encryption_gui.py       # Main Python GUI application   
 ├── README.md                     # Project documentation   
 ├── input_image.png               # Original input image   
 ├── encrypted_image.png           # Encrypted output  
 └── decrypted_image.png           # Decrypted output   
-
+```
 
 ---
 
