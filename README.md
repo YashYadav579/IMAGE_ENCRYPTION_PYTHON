@@ -67,7 +67,7 @@ IMAGE_ENCRYPTION_PYTHON/
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/YashYadav579/PRODIGY_CS_02.git
+git clone https://github.com/YashYadav579/IMAGE_ENCRYPTION_PYTHON.git
 ```
 
 2. **Navigate to the project folder**:
