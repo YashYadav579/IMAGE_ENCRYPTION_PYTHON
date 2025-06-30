@@ -1,8 +1,8 @@
-# 🖼️ PRODIGY_CS_02 - Image Encryption using Pixel Manipulation (GUI Version)
+# 🖼️ Image Encryption using Pixel Manipulation (GUI Version)
 
-### ✅ Internship Task - Prodigy Infotech (Cyber Security Track)
+### ✅ Project Task - (Cyber Security Track)
 
-This repository contains **Task 02** of the **Prodigy Infotech Cyber Security Internship**, where I developed a **simple image encryption and decryption tool** using **Python**, **Pillow**, and a **Tkinter-based GUI**.  
+In this Task, I developed a **simple image encryption and decryption tool** using **Python**, **Pillow**, and a **Tkinter-based GUI**.  
 The tool encrypts images by manipulating their pixel values using a symmetric XOR operation.
 
 ---
@@ -31,7 +31,7 @@ Decrypted: R = R' ^ key
 ## 📂 File Structure
 
 ```bash
-PRODIGY_CS_02/   
+IMAGE_ENCRYPTION_PYTHON/   
 ├── pixel_encryption_gui.py       # Main Python GUI application   
 ├── README.md                     # Project documentation   
 ├── input_image.png               # Original input image   
@@ -91,9 +91,7 @@ python pixel_encryption_gui.py
 ## 🙋‍♂️ About Me
 
 **Name**: _Yash Yadav_  
-**Intern** @ **Prodigy Infotech** – Cyber Security Track  
 **Task**: _Pixel-Based Image Encryption using Python_  
-**Task ID**: PRODIGY_CS_02  
 
 ---
 
@@ -111,5 +109,3 @@ This project enhanced my understanding of:
 - Pixel-level data encryption using XOR
 - GUI development with Tkinter
 - Real-world implementation of encryption concepts
-
-Special thanks to Prodigy Infotech for this hands-on learning opportunity!
