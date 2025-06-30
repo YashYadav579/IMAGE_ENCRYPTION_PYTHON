@@ -72,7 +72,7 @@ git clone https://github.com/YashYadav579/IMAGE_ENCRYPTION_PYTHON.git
 
 2. **Navigate to the project folder**:
 ```bash
-cd PRODIGY_CS_02
+cd IMAGE_ENCRYPTION_PYTHON
 ```
 
 3. **Install Pillow (if not already installed)**:
